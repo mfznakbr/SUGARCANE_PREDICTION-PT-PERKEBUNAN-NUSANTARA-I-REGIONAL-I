@@ -4,13 +4,13 @@ import joblib
 from joblib import load
 
 # DATA TEST FOR MODEL
-df = pd.read_excel(r'D:\portofolio\SUGARCANE_PREDICTION\FILE\data_testing.xlsx')
+df = pd.read_excel("https://raw.githubusercontent.com/mfznakbr/SUGARCANE_PREDICTION-PT-PERKEBUNAN-NUSANTARA-I-REGIONAL-I/main/FILE/data_testing.xlsx")
 data = df.sample(n=5, random_state=42)
 print(data)
 
 # PREPROCESSING
 def processing(data):
-    load_path = "D:\PROJECT PORTOFOLIO\SUGARCANE_PREDICTION\FILE\preproses_data.joblib"
+    load_path = "FILE/preproses_data.joblib"
     prepro = load(load_path)
     # print(f"pipeline preprocessing dimuat dari : {load_path}")
 
@@ -30,7 +30,7 @@ def load_model(model_path):
         return None
     
 # Main for prediction
-model_path = r"D:\PROJECT PORTOFOLIO\SUGARCANE_PREDICTION\FUNCTION\mlartifacts\701912226840097472\models\m-38ffa3d426c845d186844fc92f37caf0\artifacts\model.pkl"
+model_path = "FUNCTION/mlartifacts/701912226840097472/models/m-38ffa3d426c845d186844fc92f37caf0/artifacts/model.pkl"
 def main(data):
     # load model
     model = load_model(model_path)
