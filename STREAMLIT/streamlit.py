@@ -9,7 +9,7 @@ from test_model import main, processing, load_model
 # LOGO AND TITLE
 st.set_page_config(page_title="Sugarcane Yield Prediction", page_icon="🌾", layout="wide")
 st.title("🌾 Sugarcane Yield Prediction App")
-st.image("https://raw.githubusercontent.com/github.com/mfznakbr/SUGARCANE_PREDICTION-PT-PERKEBUNAN-NUSANTARA-I-REGIONAL-I/blob/main/ASET_DEPLOY/cover_tebu.png")
+st.image("https://raw.githubusercontent.com/mfznakbr/SUGARCANE_PREDICTION-PT-PERKEBUNAN-NUSANTARA-I-REGIONAL-I/main/ASET_DEPLOY/cover_tebu.png")
 
 col1, col2 = st.columns([3, 2])
 
@@ -71,7 +71,7 @@ with col1:
 # DESCRIPTION OF APP
 with col2:
     st.write("## About this App")
-    st.image("https://raw.githubusercontent.com/github.com/mfznakbr/SUGARCANE_PREDICTION-PT-PERKEBUNAN-NUSANTARA-I-REGIONAL-I/blob/main/ASET_DEPLOY/mlTebu.png")
+    st.image("https://raw.githubusercontent.com/mfznakbr/SUGARCANE_PREDICTION-PT-PERKEBUNAN-NUSANTARA-I-REGIONAL-I/main/ASET_DEPLOY/mlTebu.png")
     st.write("""
     This application predicts the sugarcane yield based on various agricultural and environmental factors. 
     It utilizes a machine learning model trained on historical data to provide accurate yield predictions.
