@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/701912226840097472/3966bb7ce7c9464aa90dfadd43eb7e20/artifacts
+end_time: 1755943899769
+entry_point_name: ''
+experiment_id: '701912226840097472'
+lifecycle_stage: active
+run_id: 3966bb7ce7c9464aa90dfadd43eb7e20
+run_name: crawling-koi-688
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755943752677
+status: 4
+tags: []
+user_id: fauza

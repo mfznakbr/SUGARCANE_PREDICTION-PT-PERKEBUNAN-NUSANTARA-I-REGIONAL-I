@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/701912226840097472/e9891408e0fc41a3add6138c44b88266/artifacts
+end_time: 1755944302227
+entry_point_name: ''
+experiment_id: '701912226840097472'
+lifecycle_stage: active
+run_id: e9891408e0fc41a3add6138c44b88266
+run_name: intrigued-mole-898
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755944123994
+status: 3
+tags: []
+user_id: fauza
